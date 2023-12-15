@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio desenvolvedor/programador web fullstack">
+  <link rel="shortcut icon" href="/public/assets/tagHtml.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/public/styles/index.css">
+  <title>Gabriel Guimarães</title>
+</head>
+<body>
+  <img src="/public/assets/lampOff.svg" alt="lustre gerando efeito de iluminação no background" style="opacity: 0.35;" id="lamp">
+
+  <header class="opacity">
+    <div class="logoHeader">
+      <img src="/public/assets/logo.svg" alt="logo, letra G no estilo cubismo">
+    </div>
+
+    <!-- Responsive -->
+    <img src="assets/hamburgerMenu.svg" alt="botão de menu" id="buttonMenu">
+    <!-- /Responsive -->
+
+    <menu> 
+      <a  id="buttonAbout">Sobre Mim</a>
+      <a href="/public/pages/projects/projects.html">Projetos</a>
+      <a id="buttonContactMe">Contato</a>
+    </menu>
+  </header>
+
+  <main class="opacity">
+    <h3>Ola, eu sou</h3>
+    <h1><span>GABRIEL</span> <span>GUIMARÃES</span></h1>
+    <h3>Desenvolvedor Web</h3>
+  </main>
+
+  <footer>
+    <div class="socialMediaIcons opacity" target="_blank">
+      <a href="https://www.linkedin.com/in/gabrielvieira02/" target="_blank">
+        <img src="/public/assets/linkedin.svg" alt="link para o linkedIn de Gabriel">
+      </a>
+      <a href="https://github.com/theVieira" target="_blank">
+        <img src="/public/assets/github.svg" alt="link para o GitHub de Gabriel">
+      </a>
+      <a href="https://www.instagram.com/vieir4_g/" target="_blank">
+        <img src="/public/assets/instagram.svg" alt="link para o Instagram de Gabriel">
+      </a>
+    </div>
+
+    <img src="/public/assets/switchPower.svg" alt="botão de liga e desliga" id="powerButton">
+  </footer>
+
+  <dialog id="modalMenu">
+    <img src="/public/assets/closeButton.svg" alt="botão de fechar janela" class="buttonClose">
+    <menu>
+      <a id="buttonAboutMeMenu">Sobre Mim</a><br>
+      <a href="/public/pages/projects/projects.html">Projetos</a><br>
+      <a id="buttonContactMeMenu">Contato</a>
+    </menu>
+  </dialog>
+
+  <dialog id="modalAbout">
+    <img src="/public/assets/closeButton.svg" alt="botão de fechar janela" class="buttonClose">
+    <div class="container">
+      <div class="textAboutMe">
+        <p>Meu nome é <span id="name">Gabriel Vieira Guimarães</span>,</p>
+        <p>tenho 20 anos, atualmente estou cursando Sistema de Informações.</p>
+        <p>Trabalho a 8 meses como desenvolvedor front-end sendo freelancer.</p>
+        <p>Desde sempre apaixonado por tecnologia, comecei os estudos de programação no início de 2022.</p>
+      </div>
+
+      
+      <div class="technologies">
+        <p class="myStudies">Tecnologias que venho estudando</p>
+        <div class="techImages">
+          <img src="/public/assets/html5.svg" alt="ícone html5" id="html">
+          <img src="/public/assets/css3-alt.svg" alt="ícone css3" id="css">
+          <img src="/public/assets/sass.svg" alt="ícone sass" id="sass">
+          <img src="/public/assets/square-js.svg" alt="ícone javascript" id="javascript">
+          <img src="/public/assets/node-js.svg" alt="ícone node js" id="nodejs">
+          <img src="/public/assets/vuejs.svg" alt="ícone vue.js" id="vue">
+          <img src="/public/assets/database-solid.svg" alt="ícone database" id="postgres">
+        </div>
+      </div>
+      <div id="infoAboutTech">Clique na figura e veja mais informações sobre a tecnologia</div>
+    </div>
+  </dialog>
+
+  <dialog id="modalContact">
+    <img src="/public/assets/closeButton.svg" alt="botão de fechar janela" class="buttonClose">
+    <div class="container">
+      <h3>Meus Contatos</h3>
+      <div class="modalContactSocialMediaIcons">
+        <h4>GitHub: <a target="_blank" href="https://github.com/theVieira"><img src="/public/assets/github.svg" alt="ícone do github"><span>theVieira</span></a target="_blank"></h4>
+        <h4>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/gabrielvieira02/"><img src="/public/assets/linkedin.svg" alt="ícone do linkedIn"><span>Gabriel Vieira Guimarães</span></a target="_blank"></h4>
+        <h4>Email: <a target="_blank" href="https://criarmeulink.com.br/u/1702141519"><img src="/public/assets/email.svg" alt="ícone do email"><span>gabrielvieiraguimaraes4@gmail.com</span></a target="_blank"></h4>
+        <h4>Currículo: <a href="/public/pages/meuCV-example.txt" download="Currículo - Gabriel Guimarães"><span>Clique aqui e baixe o CV</span></a></h4>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module" src="/public/app/main.min.js"></script>
+</body>
+</html>

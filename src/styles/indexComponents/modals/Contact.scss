@@ -1,0 +1,68 @@
+#modalContact {
+    width: 50%;
+    height: 50%;
+    margin: 7% 50%;
+    transform: translateX(-50%);
+    border: none;
+    background: transparent;
+
+    &::backdrop {
+        background-color: #000000d2;
+    }
+
+    .buttonClose {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        cursor: pointer;
+        width: 2rem;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        background-color: $background;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            position: absolute;
+            top: 6rem;
+            letter-spacing: 2rem;
+            color: $color;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .modalContactSocialMediaIcons {
+            h4 {
+                color: $color;
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                &:last-child {
+                    span {
+                        color: #0000ffd8;
+                    }
+                }
+
+                a {
+                    color: $color;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    span {
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                    }
+
+                }
+            }
+        }
+    }
+}

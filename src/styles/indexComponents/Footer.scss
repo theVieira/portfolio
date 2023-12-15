@@ -1,0 +1,44 @@
+footer {
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7rem 2rem 9rem;
+  position: absolute;
+  bottom: 0;  
+  background: transparent;
+  user-select: none;
+  
+
+  .socialMediaIcons {
+    display: flex;
+    gap: 3rem;
+    transition: .5s;
+
+    img {
+      width: 3rem;
+      opacity: 0.85;
+      transition: .2s;
+
+      &:hover {
+        opacity: 1;
+        scale: 1.02;
+      }
+  
+    }
+  }
+
+  #powerButton {
+    width: 4rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.6 !important;
+    transition: .2s;
+
+    &:hover {
+      opacity: 1;
+      scale: 1.05;
+      fill: #fff;
+    }
+  }
+}

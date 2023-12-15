@@ -1,0 +1,76 @@
+#modalAbout {
+  margin: 5% 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 80%;
+  background: transparent;
+  border: none;
+  user-select: none;
+  
+  &::backdrop {
+    background-color: #000000d2;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background: $background;
+    padding: 3rem 3rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    .textAboutMe {
+      text-align: center;
+      color: $color;
+      font-size: 3.8rem;
+
+      #name {
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+    }
+
+    .myStudies {
+      color: $color;
+      font-size: 3.2rem;
+      font-weight: 600;
+    }
+
+    .technologies {
+      text-align: center;
+
+      .techImages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        margin-top: 5%;
+
+        img {
+          width: 3rem;
+          cursor: crosshair;
+          user-select: none;
+        }
+      }
+    }
+  }
+
+  #infoAboutTech {
+    height: 8rem;
+    width: 100%;
+    color: $color;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .buttonClose {
+    position: absolute;
+    width: 2rem;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+  }
+}

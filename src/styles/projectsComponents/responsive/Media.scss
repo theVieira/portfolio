@@ -1,0 +1,48 @@
+@media (max-width: 725px) {
+  h1 {
+    top: 8rem !important;
+  }
+
+  a {
+    margin-top: 8% !important;
+  }
+
+  .card:first-child {
+    margin-top: 30rem;
+  }
+}
+
+@media (max-width: 590px) {
+  header {
+    .logoHeader {
+      img {
+        width: 3rem !important;
+      }
+    }
+
+    menu {
+      a {
+        font-size: 1.2rem !important;
+      }
+    }
+  }
+
+  h1 {
+    font-size: .8rem !important;
+  }
+
+  a {
+    img {
+      width: 80% !important; 
+    }
+  }
+
+  .card {
+    margin-top: 5rem !important;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+}

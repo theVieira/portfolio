@@ -1,0 +1,49 @@
+main {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  h1 {
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: $color;
+  }
+
+  a {
+    margin-top: 1rem;
+    color: $color;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin-top: 1rem;
+    }
+
+    .icons {
+      margin-top: 1rem;
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    img {
+      width: 30rem;
+      height: 70%;
+      transition: .3s;
+
+      &:not(:hover) {
+        filter: brightness(0.85);
+      }
+    }
+  }
+}

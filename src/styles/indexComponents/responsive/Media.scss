@@ -1,0 +1,188 @@
+@media (max-width: 1600px) {
+  header {
+    menu {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  #buttonMenu {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 50%;
+  }
+
+  #modalAbout {
+    margin-top: 13% !important; 
+  }
+
+  #modalContact {
+    width: 50% !important;
+    margin-top: 35% !important;
+
+    h3 {
+      font-size: 4rem !important;
+      letter-spacing: .5rem !important;
+    }
+
+    .modalContactSocialMediaIcons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 10rem;
+    }
+  }
+
+  #lamp {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 2rem 2rem 2rem 0rem;
+  }
+
+  header .logo img{
+    width: 7rem;
+  }
+
+  main h3{
+    font-size: 2rem;
+    margin-bottom: -.8rem;
+  }
+
+  main h1 {
+    font-size: 4rem ;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+
+  #modalContact {
+    width: 100% !important;
+    margin-top: 35% !important;
+
+    h3 {
+      font-size: 4rem !important;
+      letter-spacing: .5rem !important;
+    }
+
+    .modalContactSocialMediaIcons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 10rem;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  #modalAbout {
+    margin-top: 15% !important;
+    display: flex !important;
+    gap: 0rem !important;
+
+    .textAboutMe {
+      font-size: 3.2rem !important;
+
+      #name {
+        font-size: 2rem !important;
+      }
+    }
+
+    .technologies {
+      margin-top: 0rem !important;
+    }
+  }
+
+  #modalContact {
+    width: 100% !important;
+    margin-top: 35% !important;
+
+    h3 {
+      font-size: 4rem !important;
+      letter-spacing: .5rem !important;
+    }
+
+    .modalContactSocialMediaIcons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 10rem;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 40%;
+  }
+
+  #lamp {
+    width: 30rem;
+  }
+
+  header {
+    padding: 2rem 2.5rem 2rem 1rem;
+
+    .logoHeader img{
+      width: 6.5rem;
+    }
+
+    #buttonMenu {
+      width: 4rem;
+    }
+  }
+
+  #modalAbout {
+    width: 100% !important;
+    margin-top: 14% !important;
+
+    .container {
+      .textAboutMe {
+        font-size: 3.5rem !important;
+
+        #name {
+          font-size: 3rem !important;
+        }
+      }
+  
+      .myStudies {
+        margin-top: 5rem;
+        font-size: 3rem !important;
+      }
+  
+      #infoAboutTech {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  #modalContact {
+    width: 100% !important;
+    margin-top: 35% !important;
+
+    h3 {
+      font-size: 4rem !important;
+      letter-spacing: .5rem !important;
+    }
+
+    .modalContactSocialMediaIcons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 10rem;
+    }
+  }
+
+  footer {
+    padding: 0 3rem 2rem 3rem;
+  }
+}
