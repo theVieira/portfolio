@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/code.svg" type="image/x-icon">
+  <link rel="stylesheet" href="styles/global.css">
+  <title>Gabriel Guimarães</title>
+</head>
+<body>
+  <header class="hide">
+    <img src="assets/logo.svg" alt="logo icon" class="logo">
+    <img src="assets/menu.svg" alt="menu icon" class="menu-button" id="open">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#techs">Tech Stacks</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home hide" id="home">
+    <h1>Hi 👋, <br>
+      My name is <br>
+      <span class="name">Gabriel Guimarães</span>
+      Fullstack developer
+      <span>
+        <a href="https://github.com/theVieira/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/social/github.svg" alt="github icon" class="icon">
+        </a>
+        <a href="https://www.linkedin.com/in/gabrielvieira02/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/social/linkedin.svg" alt="linkedin icon" class="icon">
+        </a>
+      </span>
+    </h1>
+    <img src="assets/perfil.jpeg" alt="perfil image" class="perfil">
+  </section>
+  <section class="about hide" id="about">
+    <h2>About Me</h2>
+    <p>More information about me</p>
+    <span>I'm an <strong><em>Information Systems</em></strong> student, I'm in my third period,<br> I work with <strong><em>fullstack web development</em></strong>, currently working as a freelancer. <br>
+      Courses I've already taken: <br><strong>OnebitCode FullStack JS</strong>,<br><strong>Front-end by Gustavo Guanabara from the Video Course</strong></span>
+  </section>
+  <section class="techs hide" id="techs">
+    <h2>My Tech Stack</h2>
+    <p>Technologies i`ve been work with recently</p>
+    <p class="more-info"><em>Click for more information</em></p>
+    <div class="icons">
+      <img src="assets/techs/html.svg" alt="html icon" class="icon" id="html">
+      <img src="assets/techs/css.svg" alt="css icon" class="icon" id="css">
+      <img src="assets/techs/javascript.svg" alt="javascript icon" class="icon" id="javascript">
+      <img src="assets/techs/vuejs.svg" alt="vuejs icon" class="icon" id="vuejs">
+      <img src="assets/techs/nodejs.svg" alt="nodejs icon" class="icon" id="nodejs">
+      <img src="assets/techs/postgres.svg" alt="postgresql icon" class="icon" id="postgresql">
+      <img src="assets/techs/mongo.svg" alt="mongodb icon" class="icon" id="mongodb">
+      <img src="assets/techs/typescript.svg" alt="typescript icon" class="icon" id="typescript">
+      <img src="assets/techs/docker.svg" alt="docker icon" class="icon" id="docker">
+      <img src="assets/techs/git.svg" alt="git icon" class="icon" id="git">
+    </div>
+    <span id="information">
+      <!-- Injected -->
+    </span>
+  </section>
+  <section class="projects hide" id="projects">
+    <h2>Projects</h2>    
+    <p>Things I've built so far</p>
+    <div class="cards">
+      <div class="card">
+        <img src="assets/projects/studies-control.svg" alt="project image" class="img-card">
+        <div class="info-card">
+          <h3 class="title-card">Controle de estudos</h3>
+          <p class="description-card">Aplicativo desenvolvido em <em><strong>Electron</strong></em>, para controlar as tarefas e estudos usando o método pomodoro</p>
+          <p class="stacks-card">
+            <strong>Tech Stacks:</strong>
+            <img src="assets/techs/html.svg" alt="html icon">
+            <img src="assets/techs/css.svg" alt="css icon">
+            <img src="assets/techs/javascript.svg" alt="javascript icon">
+            <img src="assets/techs/nodejs.svg" alt="nodejs icon">
+            <img src="assets/techs/mongo.svg" alt="mongodb icon">
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/projects/landing-page.svg" alt="project image" class="img-card">
+        <div class="info-card">
+          <h3 class="title-card">Landing Page</h3>
+          <p class="description-card">Aplicativo desenvolvido em <em><strong>Electron</strong></em>, para controlar as tarefas e estudos usando o método pomodoro.</p>
+          <p class="stacks-card">
+            <strong>Tech Stacks:</strong>
+            <img src="assets/techs/html.svg" alt="html icon">
+            <img src="assets/techs/css.svg" alt="css icon">
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/projects/parallax.svg" alt="project image" class="img-card">
+        <div class="info-card">
+          <h3 class="title-card">Site Parallax</h3>
+          <p class="description-card">Aplicativo desenvolvido em <em><strong>Electron</strong></em>, para controlar as tarefas e estudos usando o método pomodoro</p>
+          <p class="stacks-card">
+            <strong>Tech Stacks:</strong>
+            <img src="assets/techs/html.svg" alt="html icon">
+            <img src="assets/techs/sass.svg" alt="sass icon">
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/projects/calc.svg" alt="project image" class="img-card">
+        <div class="info-card">
+          <h3 class="title-card">Calculadora</h3>
+          <p class="description-card">Aplicativo desenvolvido em <em><strong>Electron</strong></em>, para controlar as tarefas e estudos usando o método pomodoro</p>
+          <p class="stacks-card">
+            <strong>Tech Stacks:</strong>
+            <img src="assets/techs/html.svg" alt="html icon">
+            <img src="assets/techs/css.svg" alt="css icon">
+            <img src="assets/techs/javascript.svg" alt="javascript icon">
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/projects/mario-game.svg" alt="project image" class="img-card">
+        <div class="info-card">
+          <h3 class="title-card">Mario Game</h3>
+          <p class="description-card">Aplicativo desenvolvido em <em><strong>Electron</strong></em>, para controlar as tarefas e estudos usando o método pomodoro</p>
+          <p class="stacks-card">
+            <strong>Tech Stacks:</strong>
+            <img src="assets/techs/html.svg" alt="html icon">
+            <img src="assets/techs/css.svg" alt="css icon">
+            <img src="assets/techs/javascript.svg" alt="javascript icon">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="contact hide" id="contact">
+    <h2>Contact me</h2>
+    <p class="subtitle">Hey, let's build a future together?</p>
+    <div class="direct-contact-container">
+      <div class="direct-contact">
+        <img src="assets/social/email.svg" alt="email icon" class="icon">
+        <p class="copy">gabrielvieiraguimaraes4@gmail.com</p>
+      </div>
+      <div class="direct-contact">
+        <img src="assets/social/phone.svg" alt="phone icon" class="icon">
+        <p class="copy">+55 69 99293-0813</p>
+      </div>
+    </div>
+    <h4>Social Media</h4>
+    <div class="social-media">
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <img src="assets/social/github.svg" alt="github icon" class="icon">
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <img src="assets/social/linkedin.svg" alt="linkedin icon" class="icon">
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <img src="assets/social/instagram.svg" alt="instagram icon" class="icon">
+      </a>
+    </div>
+  </footer>
+
+  <div class="dialog hidden">
+    <img src="assets/close.svg" alt="close button icon" id="close">
+    <div class="container">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#techs">Tech Stacks</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <script type="module" src="src/index.js"></script>
+</body>
+</html>
