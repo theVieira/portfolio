@@ -1,7 +1,7 @@
 const sections = document.querySelectorAll('.hide')
 
-const observer = new IntersectionObserver( entries => {
-  entries.forEach( entry => {
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
     if(entry.isIntersecting) {
       entry.target.classList.add('show')
     } else {
@@ -10,6 +10,6 @@ const observer = new IntersectionObserver( entries => {
   })
 })
 
-sections.forEach( section => observer.observe(section) )
+sections.forEach(section => observer.observe(section) )
 
 export default observer

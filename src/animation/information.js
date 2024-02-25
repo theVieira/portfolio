@@ -4,7 +4,6 @@ const techs = document.querySelectorAll('.techs .icon')
 export default techs.forEach(tech => {
   const techId = tech.id
   tech.addEventListener('click', () => {
-    interval
     switch(techId) {
       case 'html':
         render('HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores')
@@ -40,12 +39,14 @@ export default techs.forEach(tech => {
   })
 })
 
+const observer = new IntersectionObserver(entry => {
+  if(!entry.isIntersecting) {
+    information.textContent = ''
+  }
+})
+
+observer.observe(information)
 
 function render(tech) {
   information.textContent = tech
-  clearInterval(interval)
 }
-
-const interval = setInterval(() => {
-  information.textContent = ''
-}, 1000 * 10)
