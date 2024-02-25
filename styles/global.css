@@ -141,6 +141,20 @@ h1 span a img:hover {
   width: 3rem;
 }
 
+.source-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #42446E;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.source-code img {
+  width: 2rem;
+}
+
 #information {
   max-width: 80%;
   text-align: center;
@@ -302,7 +316,11 @@ h1 span a img:hover {
     font-size: 2.2rem;
   }
 
-  .about p, span {
+  .about p {
+    font-size: 1.8rem;
+  }
+
+  .about span {
     font-size: 1.8rem;
   }
 
