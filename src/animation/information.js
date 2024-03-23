@@ -35,6 +35,11 @@ export default techs.forEach(tech => {
       case 'git':
         render('Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo')
       break
+      case 'bootstrap':
+        render('Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface, melhorando a experiência do usuário em um site amigável e responsivo')
+      break
+      case 'ejs':
+        render('O EJS é uma Template Engine que podemos utilizar com Node.js, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML')
     }
   })
 })
