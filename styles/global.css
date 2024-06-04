@@ -195,6 +195,7 @@ h1 span a img:hover {
 
 .card {
   max-width: 30rem;
+  max-height: 40rem;
   border-radius: 2rem;
   box-shadow: 1px 1px 20px #575252;
 }
