@@ -1,469 +1,444 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/code.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <title>Gabriel Guimarães</title>
-  </head>
-  <body>
-    <header class="hide">
-      <img src="assets/logo.svg" alt="logo icon" class="logo" />
-      <img
-        src="assets/menu.svg"
-        alt="menu icon"
-        class="menu-button"
-        id="open"
-      />
-      <nav>
-        <a href="#home">Início</a>
-        <a href="#about">Sobre Mim</a>
-        <a href="#techs">Tecnologias</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contact">Contato</a>
-      </nav>
-    </header>
-    <section class="home hide" id="home">
-      <h1>
-        Oi 👋, <br />
-        Meu nome é <br />
-        <span class="name">Gabriel Guimarães</span>
-        Desenvolvedor web <br />
-        Fullstack
-        <span>
-          <a
-            href="https://github.com/theVieira/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="assets/social/github.svg"
-              alt="github icon"
-              class="icon"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gabrielvieira02/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="assets/social/linkedin.svg"
-              alt="linkedin icon"
-              class="icon"
-            />
-          </a>
-        </span>
-      </h1>
-      <div class="perfil"></div>
-    </section>
-    <section class="about hide" id="about">
-      <h2>Sobre mim</h2>
-      <p>Mais informações sobre mim</p>
-      <span
-        >Sou estudante de <strong><em>Sistemas de Informações</em></strong> e
-        estou no terceiro período,<br />
-        Trabalho com <strong><em>Desenvolvimento Web FullStack</em></strong
-        >, atualmente como freelancer. <br />
-        Cursos que já fiz: <br /><strong>FullStack JS - OnebitCode</strong
-        >,<br /><strong
-          >Front-end (Gustavo Guanabara) - Curso em Vídeo</strong
-        ></span
-      >
-    </section>
-    <section class="techs hide" id="techs">
-      <h2>Tecnologias</h2>
-      <p>Tecnologias que venho trabalhando recentemente</p>
-      <p class="more-info"><em>Clique para ver mais informações</em></p>
-      <div class="icons">
-        <img
-          src="assets/techs/html.svg"
-          alt="html icon"
-          class="icon"
-          id="html"
-        />
-        <img src="assets/techs/css.svg" alt="css icon" class="icon" id="css" />
-        <img
-          src="assets/techs/javascript.svg"
-          alt="javascript icon"
-          class="icon"
-          id="javascript"
-        />
-        <img
-          src="assets/techs/vuejs.svg"
-          alt="vuejs icon"
-          class="icon"
-          id="vuejs"
-        />
-        <img
-          src="assets/techs/bootstrap.svg"
-          alt="bootstrap icon"
-          class="icon"
-          id="bootstrap"
-        />
-        <img
-          src="assets/techs/nodejs.svg"
-          alt="nodejs icon"
-          class="icon"
-          id="nodejs"
-        />
-        <img src="assets/techs/ejs.svg" alt="ejs icon" class="icon" id="ejs" />
-        <img
-          src="assets/techs/postgres.svg"
-          alt="postgresql icon"
-          class="icon"
-          id="postgresql"
-        />
-        <img
-          src="assets/techs/mongo.svg"
-          alt="mongodb icon"
-          class="icon"
-          id="mongodb"
-        />
-        <img
-          src="assets/techs/typescript.svg"
-          alt="typescript icon"
-          class="icon"
-          id="typescript"
-        />
-        <img
-          src="assets/techs/docker.svg"
-          alt="docker icon"
-          class="icon"
-          id="docker"
-        />
-        <img src="assets/techs/git.svg" alt="git icon" class="icon" id="git" />
-      </div>
-      <span id="information">
-        <!-- Injected -->
-      </span>
-    </section>
-    <section class="projects hide" id="projects">
-      <h2>Projetos</h2>
-      <p>Projetos que fiz recentemente</p>
-      <div class="cards">
-        <div class="card hide">
-          <img
-            src="assets/projects/studies-control.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Controle de estudos</h3>
-            <p class="description-card">
-              Aplicativo desenvolvido em <em><strong>Electron</strong></em
-              >, para controlar as tarefas e estudos usando o método pomodoro
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-              <img src="assets/techs/javascript.svg" alt="javascript icon" />
-              <img src="assets/techs/nodejs.svg" alt="nodejs icon" />
-              <img src="assets/techs/mongo.svg" alt="mongodb icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/appStudy-Frontend"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/marriage.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Confirme sua presença</h3>
-            <p class="description-card">
-              <strong>API</strong> desenvolvida com
-              <strong>NodeJs, Ejs, BootStrap</strong> e
-              <strong>MongoDB</strong>, para confirmar a presença de cada
-              convidado em um evento
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/nodejs.svg" alt="nodejs icon" />
-              <img src="assets/techs/mongo.svg" alt="mongodb icon" />
-              <img src="assets/techs/ejs.svg" alt="ejs icon" />
-              <img src="assets/techs/bootstrap.svg" alt="bootstrap icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/marriage-backend"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/tickets.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Controle de chamados</h3>
-            <p class="description-card">
-              <strong>Software</strong> desenvolvido para gerenciar os chamados,
-              <strong>FullStack</strong>, usando <strong>JWT</strong> e
-              conectado à <strong>API</strong> do
-              <strong>Telegram</strong>
-            </p>
-            <div class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/vuejs.svg" alt="vue icon" />
-              <img src="assets/techs/nodejs.svg" alt="nodejs icon" />
-              <img src="assets/techs/docker.svg" alt="docker icon" />
-              <img src="assets/techs/postgres.svg" alt="postgres icon" />
-              <img src="assets/techs/typescript.svg" alt="typescript icon" />
-            </div>
-          </div>
-          <a
-            href="https://github.com/theVieira/tickets-client"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/landing-page.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Landing Page</h3>
-            <p class="description-card">
-              Página de apresentação estática, com objetivo de captar novos
-              clientes
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/landingPage"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/powerinfo.jpeg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Empresa de Tecnologia</h3>
-            <p class="description-card">
-              Landing page para empresa de tecnologia
-              <strong>Power Tecnologia</strong>
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/powerinfo"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-            style="padding: 0"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-            <a
-              href="https://powerinfo.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="source-code"
-            >
-              <img src="assets/link.svg" alt="link icon" />
-              <span>Ver Página</span>
-            </a>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/sing-up.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Sing Up Page</h3>
-            <p class="description-card">Página de cadastro para projetos</p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/sass.svg" alt="sass icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/sing-up-page"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/parallax.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Site Parallax</h3>
-            <p class="description-card">
-              Página com background estático (Efeito Parallax)
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-              <img src="assets/techs/sass.svg" alt="sass icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/parallaxSite"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/calc.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Calculadora</h3>
-            <p class="description-card">
-              Calculadora simples, construída para testar conhecimentos básicos
-              de programação
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-              <img src="assets/techs/javascript.svg" alt="javascript icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/calc.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-        <div class="card hide">
-          <img
-            src="assets/projects/mario-game.svg"
-            alt="project image"
-            class="img-card"
-          />
-          <div class="info-card">
-            <h3 class="title-card">Mario Game</h3>
-            <p class="description-card">
-              Jogo do Mario, para se divertir um pouco
-            </p>
-            <p class="stacks-card">
-              <strong>Tech Stacks:</strong>
-              <img src="assets/techs/html.svg" alt="html icon" />
-              <img src="assets/techs/css.svg" alt="css icon" />
-              <img src="assets/techs/sass.svg" alt="sass icon" />
-              <img src="assets/techs/javascript.svg" alt="javascript icon" />
-            </p>
-          </div>
-          <a
-            href="https://github.com/theVieira/marioGame"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="source-code"
-          >
-            <img src="assets/link.svg" alt="link icon" />
-            <span>Ver Repositório</span>
-          </a>
-        </div>
-      </div>
-    </section>
-    <footer class="contact hide" id="contact">
-      <h2>Contato</h2>
-      <p class="subtitle">Eai, bora construir um futuro juntos?</p>
-      <div class="direct-contact-container">
-        <div class="direct-contact">
-          <img src="assets/social/email.svg" alt="email icon" class="icon" />
-          <p class="copy">gabrielvieiraguimaraes4@gmail.com</p>
-        </div>
-        <div class="direct-contact">
-          <img src="assets/social/phone.svg" alt="phone icon" class="icon" />
-          <p class="copy">+55 69 99293-0813</p>
-        </div>
-      </div>
-      <h4>Outros meios</h4>
-      <div class="social-media">
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <img src="assets/social/github.svg" alt="github icon" class="icon" />
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <img
-            src="assets/social/linkedin.svg"
-            alt="linkedin icon"
-            class="icon"
-          />
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <img
-            src="assets/social/instagram.svg"
-            alt="instagram icon"
-            class="icon"
-          />
-        </a>
-      </div>
-    </footer>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="assets/code.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="styles/global.css" />
+		<title>Gabriel Guimarães</title>
+	</head>
+	<body>
+		<header class="hide">
+			<img src="assets/logo.svg" alt="logo icon" class="logo" />
+			<img src="assets/menu.svg" alt="menu icon" class="menu-button" id="open" />
+			<nav>
+				<a href="#home">Início</a>
+				<a href="#about">Sobre Mim</a>
+				<a href="#techs">Tecnologias</a>
+				<a href="#projects">Projetos</a>
+				<a href="#contact">Contato</a>
+			</nav>
+		</header>
+		<section class="home hide" id="home">
+			<h1>
+				Oi 👋, <br />
+				Meu nome é <br />
+				<span class="name">Gabriel Guimarães</span>
+				Desenvolvedor web <br />
+				Fullstack
+				<span>
+					<a
+						href="https://github.com/theVieira/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src="assets/social/github.svg" alt="github icon" class="icon" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/gabrielvieira02/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src="assets/social/linkedin.svg" alt="linkedin icon" class="icon" />
+					</a>
+				</span>
+			</h1>
+			<div class="perfil"></div>
+		</section>
+		<section class="about hide" id="about">
+			<h2>Sobre mim</h2>
+			<p>Mais informações sobre mim</p>
+			<span
+				>Sou estudante de <strong><em>Sistemas de Informações</em></strong> e estou
+				no quinto período,<br />
+				Trabalho com <strong><em>Desenvolvimento Web FullStack</em></strong
+				>, atualmente como freelancer. <br />
+				Cursos que já fiz: <br /><strong>FullStack JS - OnebitCode</strong
+				>,<br /><strong>Front-end (Gustavo Guanabara) - Curso em Vídeo</strong></span
+			>
+		</section>
+		<section class="techs hide" id="techs">
+			<h2>Tecnologias</h2>
+			<p>Tecnologias que venho trabalhando recentemente</p>
+			<p class="more-info"><em>Clique para ver mais informações</em></p>
+			<div class="icons">
+				<img src="assets/techs/html.svg" alt="html icon" class="icon" id="html" />
+				<img src="assets/techs/css.svg" alt="css icon" class="icon" id="css" />
+				<img
+					src="assets/techs/javascript.svg"
+					alt="javascript icon"
+					class="icon"
+					id="javascript"
+				/>
+				<img src="assets/techs/vuejs.svg" alt="vuejs icon" class="icon" id="vuejs" />
+				<img
+					src="assets/techs/bootstrap.svg"
+					alt="bootstrap icon"
+					class="icon"
+					id="bootstrap"
+				/>
+				<img
+					src="assets/techs/nodejs.svg"
+					alt="nodejs icon"
+					class="icon"
+					id="nodejs"
+				/>
+				<img src="assets/techs/ejs.svg" alt="ejs icon" class="icon" id="ejs" />
+				<img
+					src="assets/techs/postgres.svg"
+					alt="postgresql icon"
+					class="icon"
+					id="postgresql"
+				/>
+				<img
+					src="assets/techs/mongo.svg"
+					alt="mongodb icon"
+					class="icon"
+					id="mongodb"
+				/>
+				<img
+					src="assets/techs/typescript.svg"
+					alt="typescript icon"
+					class="icon"
+					id="typescript"
+				/>
+				<img
+					src="assets/techs/docker.svg"
+					alt="docker icon"
+					class="icon"
+					id="docker"
+				/>
+				<img src="assets/techs/git.svg" alt="git icon" class="icon" id="git" />
+				<img src="assets/techs/linux.svg" alt="linux icon" class="icon" id="linux" />
+				<img src="assets/techs/aws.svg" alt="aws icon" class="icon" id="aws" />
+				<img
+					src="assets/techs/cloudflare.svg"
+					alt="cloudflare icon"
+					class="icon"
+					id="cloudflare"
+				/>
+				<img
+					src="assets/techs/tailwindcss.svg"
+					alt="tailwindcss icon"
+					class="icon"
+					id="tailwindcss"
+				/>
+				<img src="assets/techs/nginx.svg" alt="nginx icon" class="icon" id="nginx" />
+				<img src="assets/techs/jwt.svg" alt="jwt icon" class="icon" id="jwt" />
+			</div>
+			<span id="information">
+				<!-- Injected -->
+			</span>
+		</section>
+		<section class="projects hide" id="projects">
+			<h2>Projetos</h2>
+			<p>Projetos que fiz recentemente</p>
+			<div class="cards">
+				<div class="card hide">
+					<img
+						src="assets/projects/studies-control.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Controle de estudos</h3>
+						<p class="description-card">
+							Aplicativo desenvolvido em <em><strong>Electron</strong></em
+							>, para controlar as tarefas e estudos usando o método pomodoro
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+							<img src="assets/techs/javascript.svg" alt="javascript icon" />
+							<img src="assets/techs/nodejs.svg" alt="nodejs icon" />
+							<img src="assets/techs/mongo.svg" alt="mongodb icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/appStudy-Frontend"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/marriage.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Confirme sua presença</h3>
+						<p class="description-card">
+							<strong>API</strong> desenvolvida com
+							<strong>NodeJs, Ejs, BootStrap</strong> e <strong>MongoDB</strong>,
+							para confirmar a presença de cada convidado em um evento
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/nodejs.svg" alt="nodejs icon" />
+							<img src="assets/techs/mongo.svg" alt="mongodb icon" />
+							<img src="assets/techs/ejs.svg" alt="ejs icon" />
+							<img src="assets/techs/bootstrap.svg" alt="bootstrap icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/marriage-backend"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/tickets.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Controle de chamados</h3>
+						<p class="description-card">
+							<strong>Software</strong> desenvolvido para gerenciar os chamados,
+							<strong>FullStack</strong>, usando <strong>JWT</strong> e conectado à
+							<strong>API</strong> do
+							<strong>Telegram</strong>
+						</p>
+						<div class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/vuejs.svg" alt="vue icon" />
+							<img src="assets/techs/nodejs.svg" alt="nodejs icon" />
+							<img src="assets/techs/docker.svg" alt="docker icon" />
+							<img src="assets/techs/postgres.svg" alt="postgres icon" />
+							<img src="assets/techs/typescript.svg" alt="typescript icon" />
+						</div>
+					</div>
+					<a
+						href="https://github.com/theVieira/tickets-client"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/landing-page.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Landing Page</h3>
+						<p class="description-card">
+							Página de apresentação estática, com objetivo de captar novos clientes
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/landingPage"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/powerinfo.jpeg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Empresa de Tecnologia</h3>
+						<p class="description-card">
+							Landing page para empresa de tecnologia
+							<strong>Power Tecnologia</strong>
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/powerinfo"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+						style="padding: 0"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+						<a
+							href="https://powerinfo.com.br/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="source-code"
+						>
+							<img src="assets/link.svg" alt="link icon" />
+							<span>Ver Página</span>
+						</a>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/sing-up.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Sing Up Page</h3>
+						<p class="description-card">Página de cadastro para projetos</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/sass.svg" alt="sass icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/sing-up-page"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/parallax.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Site Parallax</h3>
+						<p class="description-card">
+							Página com background estático (Efeito Parallax)
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+							<img src="assets/techs/sass.svg" alt="sass icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/parallaxSite"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img src="assets/projects/calc.svg" alt="project image" class="img-card" />
+					<div class="info-card">
+						<h3 class="title-card">Calculadora</h3>
+						<p class="description-card">
+							Calculadora simples, construída para testar conhecimentos básicos de
+							programação
+						</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+							<img src="assets/techs/javascript.svg" alt="javascript icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/calc.js"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+				<div class="card hide">
+					<img
+						src="assets/projects/mario-game.svg"
+						alt="project image"
+						class="img-card"
+					/>
+					<div class="info-card">
+						<h3 class="title-card">Mario Game</h3>
+						<p class="description-card">Jogo do Mario, para se divertir um pouco</p>
+						<p class="stacks-card">
+							<strong>Tech Stacks:</strong>
+							<img src="assets/techs/html.svg" alt="html icon" />
+							<img src="assets/techs/css.svg" alt="css icon" />
+							<img src="assets/techs/sass.svg" alt="sass icon" />
+							<img src="assets/techs/javascript.svg" alt="javascript icon" />
+						</p>
+					</div>
+					<a
+						href="https://github.com/theVieira/marioGame"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="source-code"
+					>
+						<img src="assets/link.svg" alt="link icon" />
+						<span>Ver Repositório</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer class="contact hide" id="contact">
+			<h2>Contato</h2>
+			<p class="subtitle">Eai, bora construir um futuro juntos?</p>
+			<div class="direct-contact-container">
+				<div class="direct-contact">
+					<img src="assets/social/email.svg" alt="email icon" class="icon" />
+					<p class="copy">gabrielvieiraguimaraes4@gmail.com</p>
+				</div>
+				<div class="direct-contact">
+					<img src="assets/social/phone.svg" alt="phone icon" class="icon" />
+					<p class="copy">+55 69 99293-0813</p>
+				</div>
+			</div>
+			<h4>Outros meios</h4>
+			<div class="social-media">
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="assets/social/github.svg" alt="github icon" class="icon" />
+				</a>
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="assets/social/linkedin.svg" alt="linkedin icon" class="icon" />
+				</a>
+				<a href="http://" target="_blank" rel="noopener noreferrer">
+					<img src="assets/social/instagram.svg" alt="instagram icon" class="icon" />
+				</a>
+			</div>
+		</footer>
 
-    <div class="dialog hidden">
-      <img src="assets/close.svg" alt="close button icon" id="close" />
-      <div class="container">
-        <a href="#home">Início</a>
-        <a href="#about">Sobre mim</a>
-        <a href="#projects">Projetos</a>
-        <a href="#techs">Tecnologias</a>
-        <a href="#contact">Contato</a>
-      </div>
-    </div>
+		<div class="dialog hidden">
+			<img src="assets/close.svg" alt="close button icon" id="close" />
+			<div class="container">
+				<a href="#home">Início</a>
+				<a href="#about">Sobre mim</a>
+				<a href="#projects">Projetos</a>
+				<a href="#techs">Tecnologias</a>
+				<a href="#contact">Contato</a>
+			</div>
+		</div>
 
-    <script type="module" src="src/index.js"></script>
-  </body>
+		<script type="module" src="src/index.js"></script>
+	</body>
 </html>
